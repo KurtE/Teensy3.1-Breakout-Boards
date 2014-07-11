@@ -4,7 +4,7 @@ Warning
 As with all my projects, this is a Work In Progress
 Again this is a Work In Progress!  
 
-There are no warranties or Guarantees of any type that this code is usable for anything. But I hope it is.
+There are no warranties or Guarantees of any type that these hardware designs are usable for anything. But I hope they are. 
 
 Teensy 3.1
 ===
@@ -44,6 +44,15 @@ Teensy Shield with Arduino Headers
 ---
 
 This breakout board is a bit larger, as some others were interested in having Arduino stackable headers, so I am currently playing around with a V.01 of this, which appears to be working. 
+
+**Update**: I had some issues with the 3.3v circuit, where the Voltage Regulator appeared to be shorting out so we had more or less 5v on the 3.3v circuit.  Could fix by removing VR and simply jumpering from the 3.3v output of the Teensy.   So decided to make a V0.2 with more spacing between those pins, no vias under the VR, plus an easy way to not populate the 3.3v VR and instead use the power of the teensy.  
+
+Teensy Shield with Arduino Headers Through Hole
+---
+
+For the fun of it, I hacked up the v0.2 above to only use through hole components as to make it easier to solder.  I ordered a set of these fabricated at Seeedstudio, will see how well they work.  
+
+Again warning: WIP
 
 Other Breakout Boards
 ---
