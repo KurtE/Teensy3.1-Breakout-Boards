@@ -28,9 +28,27 @@ Fabrication
 
 The zip files that I have included in this project are sufficient to send off to at least a few different places.  The ones I have used for this are OSHPark and Seeedstudio.  You simply have to start the order process and upload the zip files...
 
-http://www.oshpark.com/ 
+OSHPARK - http://www.oshpark.com/
 
-http://www.seeedstudio.com/service/
+Once you enter this site, there is a button "Get Started Now" - The next page has a button, "Select a file on your computer", which will bring up a file upload dialog, where you can then upload one of these zip files.  Example: TeensyDuinoSimpleV0001.zip, it will then ask you for a project name, description and email address.  Once you enter these you will see the button changes to Processing File... 
+
+It should then show you pictures of what the board should look like... and lead you to the point of ordering. 
+
+
+SeeedStudio - http://www.seeedstudio.com/service/index.php?r=site/pcbService
+
+Brings up a page, I normally choose:
+PCB Qty: 5
+PCB Layer: 2
+PCB Thickness: 1.6mm
+PCB Dimension 10cm Max*10cm Max
+PCB Color: Green
+Surface Finish: Hasl
+
+You then hit the next button, which will bring you to the next page, where you can hit the browse button to select a zip file to upload.  You an use the zip file I mentioned under oshpark here as well.  The only difference in the zip file is the name of the Drill file, so I duplicated that file with both names in the zip files.
+
+
+
 
 
 Teensy Shield with XBee
