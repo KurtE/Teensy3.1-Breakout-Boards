@@ -1,0 +1,18 @@
+G04 DipTrace 3.3.1.3*
+G04 T4-T36-Breakout-Robotshop.gbp*
+%MOIN*%
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.Part,Single*
+%ADD49R,0.05X0.025*%
+%FSLAX26Y26*%
+G04*
+G70*
+G90*
+G75*
+G01*
+G04 BotPaste*
+%LPD*%
+D49*
+X558700Y2273267D3*
+Y2308700D3*
+M02*
